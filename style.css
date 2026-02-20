@@ -1,0 +1,18 @@
+.container{
+border:3px solid black;
+margin-top: 200px;
+background-image: linear-gradient(gray);
+}
+.btn{
+border:2px solid black;
+width:50px;
+height:50px;
+}
+#Input{
+height:40px;
+}
+body{
+    align-items: center;
+    
+    background-image: linear-gradient(black);
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>calculator</title>
+     
+ 
+    
+  </head>
+  <body>
+      <div class="container">
+       <h5 class="text-center text-warning"> Welcome to the Calculator</h5>
+        <div id="Input"class="row justify-content-center" >
+          <input type="text" placeholder="0" id="result" readonly/>
+        </div>
+          <div class="row justify-content-center my-1">
+          <button class=" button mx-1 btn btn-outline btn-secondary"onclick="clearDisp()">AC</button>
+          <button class=" button mx-1 btn btn-outline btn-light"onclick=backspace()>&#9003</button>
+          <button class=" button mx-1 btn btn-outline btn-light"></button>
+        <button class=" button mx-1 btn btn-outline btn-light"></button>
+     
+        
+      </div>
+        
+      <div class="row justify-content-center my-1">
+      
+          <button class=" button mx-1 btn btn-outline btn-light" onclick="calcDisp('7')">7</button>
+          <button class=" button mx-1 btn btn-outline btn-light"onclick="calcDisp('8')">8</button>
+          <button class=" button mx-1 btn btn-outline btn-light"onclick="calcDisp('9')">9</button>
+          <button class=" button mx-1 btn btn-outline btn-light"onclick="calcDisp('*')">&#215;</button>
+     
+        
+      </div>
+      
+      <div class="row justify-content-center my-1">
+      
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('4')">4</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('5')">5</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('6')">6</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('/')">/</button>
+     
+        
+        
+      </div>
+      
+ <div class="row justify-content-center my-1">
+      
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('1')">1</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('2')">2</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('3')">3</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('+')">+</button>
+     
+        
+        
+      </div>
+      
+ <div class="row justify-content-center my-1">
+      
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('0')">0</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('.')">.</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcResult()">=</button>
+          <button class="button mx-1 btn btn-outline btn-light"onclick="calcDisp('-')">-</button>
+     
+        
+        
+      </div>
+      
+      
+    </div>
+    <script src="script.js"></script>
+  
+ </body>
+</html>
